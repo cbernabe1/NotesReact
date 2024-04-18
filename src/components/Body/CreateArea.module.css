@@ -1,0 +1,45 @@
+@import "../../var.css";
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.form{
+display: flex;
+flex-direction: column;
+width: 400px;
+}
+
+.titleInput{
+    border: none;
+    height: 40px;
+    padding: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.contentInput{
+    border: none;
+    padding: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    resize: none;
+}
+
+.submit{
+    border: none;
+    height: 30px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 37px;
+}
+
+.submit:hover{
+    background-color: rgba(0,0,0,0.1);
+}

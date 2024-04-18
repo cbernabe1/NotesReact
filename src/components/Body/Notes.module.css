@@ -1,0 +1,60 @@
+@import "../../var.css";
+
+
+.card{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: var(--color-primary);
+    width: 300px;
+    height: 300px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+    float: left;
+    margin: 20px;
+}
+
+.title{
+    font-size: 25px;
+    font-weight: 500;
+    width: 100%;
+    border: none;
+    background-color: transparent;
+}
+
+.content{
+    font-size: 17px;
+    overflow: scroll;
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: transparent;
+}
+
+.content::-webkit-scrollbar{
+    display: none;
+}
+
+.btn{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.deletebtn, .editbtn{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.deletebtn:hover{
+    color: red;
+}
+
+.editbtn:hover{
+    color: green;
+}
